@@ -4,8 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Portfolio de Lorenzo Drovandi, un desarrollador Front-End apasionado por crear experiencias digitales excepcionales."
+    />
+    <meta property="og:title" content="Portfolio de Lorenzo Drovandi" />
+    <meta
+      property="og:description"
+      content="Portfolio de Lorenzo Drovandi, un desarrollador Front-End apasionado por crear experiencias digitales excepcionales."
+    />
     <title>Portfolio - Lorenzo Drovandi</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      async
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "SbCCV7okgZsFUvVFK",
+        });
+      })();
+    </script>
   </head>
   <body>
     <header>
@@ -37,66 +58,70 @@
         </ul>
       </nav>
     </header>
-    <section id="home" class="fade-in">
-      <h1 id="welcome">Hi, I'm Lorenzo Drovandi</h1>
-      <p id="role">Front-End Developer</p>
-      <a href="#projects" class="btn" id="work_btn">See My Work</a>
-    </section>
-    <section id="projects" class="fade-in">
-      <h2 id="project_title_text">Projects</h2>
-      <div class="project-list">
-        <article class="project-item">
-          <h3>ExchangeApp</h3>
-          <p id="description_project_1">
-            A website that shows the exchange rates of the day, integrating an
-            API which allows you to select a currency and get updated results
-            instantly.
-          </p>
-          <a href="#" target="_blank" id="view_project_text_1">View Project</a>
-        </article>
-        <article class="project-item">
-          <h3>Pokedex</h3>
-          <p id="description_project_2">
-            A replica of a Pokedex, using the HTML, CSS, JavaScript and jQuery
-            plus the integration of an API and with all the functions tested
-            with Cypress.
-          </p>
-          <a href="#" target="_blank" id="view_project_text_2">View Project</a>
-        </article>
-      </div>
-    </section>
-    <section id="about" class="fade-in">
-      <h2 id="aboutme_title_text">About Me</h2>
-      <p id="aboutme_description_text">
-        Front-end developer with a knack for creating seamless digital
-        experiences. Armed with HTML, CSS, JavaScript, and React, I transform
-        ideas into dynamic, easy-to-use web applications. I'm passionate about
-        combining creativity and code to deliver solutions that not only work,
-        but also achieve objectives in the most effective way possible.
-      </p>
+    <main>
+      <section id="home" class="fade-in">
+        <h1 id="welcome">Hi, I'm Lorenzo Drovandi</h1>
+        <p id="role">Front-End Developer</p>
+        <a href="#projects" class="btn" id="work_btn">See My Work</a>
+      </section>
+      <section id="projects" class="fade-in">
+        <h2 id="project_title_text">Projects</h2>
+        <div class="project-list">
+          <article class="project-item">
+            <h3>ExchangeApp</h3>
+            <p id="description_project_1">
+              A website that shows the exchange rates of the day, integrating an
+              API which allows you to select a currency and get updated results
+              instantly.
+            </p>
+            <a href="#" target="_blank" id="view_project_text_1"
+              >View Project</a
+            >
+          </article>
+          <article class="project-item">
+            <h3>Pokedex</h3>
+            <p id="description_project_2">
+              A replica of a Pokedex, using the HTML, CSS, JavaScript and jQuery
+              plus the integration of an API and with all the functions tested
+              with Cypress.
+            </p>
+            <a href="#" target="_blank" id="view_project_text_2"
+              >View Project</a
+            >
+          </article>
+        </div>
+      </section>
+      <section id="about" class="fade-in">
+        <h2 id="aboutme_title_text">About Me</h2>
+        <p id="aboutme_description_text">
+          Front-end developer with a knack for creating seamless digital
+          experiences. Armed with HTML, CSS, JavaScript, and React, I transform
+          ideas into dynamic, easy-to-use web applications. I'm passionate about
+          combining creativity and code to deliver solutions that not only work,
+          but also achieve objectives in the most effective way possible.
+        </p>
 
-      <h3 id="tech_title_text">Technologies I Use</h3>
-      <ul>
-        <li>HTML / CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
-    </section>
-    <section id="contact" class="fade-in">
-      <h2 id="contact_title_text">Contact Me</h2>
-      <form action="your-backend-endpoint" method="POST">
-        <label for="name" id="name_text">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message" id="message_text">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit" class="btn" id="send_message_text">Send</button>
-      </form>
-    </section>
+        <h3 id="tech_title_text">Technologies I Use</h3>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </section>
+      <section id="contact" class="fade-in">
+        <h2 id="contact_title_text">Contact Me</h2>
+        <form method="POST" id="contact-form">
+          <label for="name" id="name_text">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message" id="message_text">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit" class="btn" id="send_message_text">Send</button>
+          <p id="form-feedback" style="display: none"></p>
+        </form>
+      </section>
+    </main>
     <footer class="fade-in">
       <p id="copy_text">2024 Lorenzo Drovandi. All rights reserved.</p>
       <ul>
@@ -114,6 +139,6 @@
         </li>
       </ul>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>

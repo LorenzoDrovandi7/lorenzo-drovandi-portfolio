@@ -252,6 +252,11 @@ footer ul li a:hover {
   transition: color 0.3s ease;
 }
 
+#form-feedback {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -307,7 +312,7 @@ html {
 
 .theme-btn {
   position: fixed;
-  top: 67em;
+  top: 64em;
   right: 0.5em;
   border: none;
   background-color: transparent;
@@ -407,5 +412,17 @@ body.body-dark-mode footer {
   }
   #about p {
     padding: 20px;
+  }
+
+  .lang-btn {
+    top: 55px;
+    right: 50em;
+    padding: 10px;
+    display: grid;
+  }
+
+  .theme-btn {
+    top: 6em;
+    right: 1em;
   }
 }
