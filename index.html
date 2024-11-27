@@ -9,87 +9,111 @@
   </head>
   <body>
     <header>
+      <div class="lang">
+        <button id="toggle-theme" class="theme-btn">
+          <img src="images/light-mode.png" alt="Light mode" id="theme-icon" />
+        </button>
+        <button id="lang-en" class="lang-btn btn">
+          <img src="images/uk.svg" alt="English" class="flag-icon" />
+        </button>
+        <button id="lang-es" class="lang-btn btn">
+          <img src="images/esp.png" alt="Español" class="flag-icon" />
+        </button>
+      </div>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" class="fade-in" id="nav_home_text">Home</a></li>
+          <li>
+            <a href="#projects" class="fade-in" id="nav_project_text"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="fade-in" id="nav_aboutme_text">About Me</a>
+          </li>
+          <li>
+            <a href="#contact" class="fade-in" id="nav_contact_text">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <section id="home">
-      <h1>Hi, I'm Lorenzo Drovandi</h1>
-      <p>Front-End Developer</p>
-      <a href="#projects" class="btn">See My Work</a>
+    <section id="home" class="fade-in">
+      <h1 id="welcome">Hi, I'm Lorenzo Drovandi</h1>
+      <p id="role">Front-End Developer</p>
+      <a href="#projects" class="btn" id="work_btn">See My Work</a>
     </section>
-    <section id="projects">
-      <h2>Featured Projects</h2>
+    <section id="projects" class="fade-in">
+      <h2 id="project_title_text">Projects</h2>
       <div class="project-list">
         <article class="project-item">
-          <h3>Project 1</h3>
-          <p>
-            Description of the project, technologies used, and a link to the
-            demo.
+          <h3>ExchangeApp</h3>
+          <p id="description_project_1">
+            A website that shows the exchange rates of the day, integrating an
+            API which allows you to select a currency and get updated results
+            instantly.
           </p>
-          <a href="#" target="_blank">View Project</a>
+          <a href="#" target="_blank" id="view_project_text_1">View Project</a>
         </article>
         <article class="project-item">
-          <h3>Project 2</h3>
-          <p>
-            Description of the project, technologies used, and a link to the
-            demo.
+          <h3>Pokedex</h3>
+          <p id="description_project_2">
+            A replica of a Pokedex, using the HTML, CSS, JavaScript and jQuery
+            plus the integration of an API and with all the functions tested
+            with Cypress.
           </p>
-          <a href="#" target="_blank">View Project</a>
+          <a href="#" target="_blank" id="view_project_text_2">View Project</a>
         </article>
       </div>
     </section>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Front-End Developer with a knack for crafting seamless digital
+    <section id="about" class="fade-in">
+      <h2 id="aboutme_title_text">About Me</h2>
+      <p id="aboutme_description_text">
+        Front-end developer with a knack for creating seamless digital
         experiences. Armed with HTML, CSS, JavaScript, and React, I transform
-        ideas into dynamic, user-friendly web applications. Passionate about
-        blending creativity and code to deliver solutions that not only work but
-        wow!
+        ideas into dynamic, easy-to-use web applications. I'm passionate about
+        combining creativity and code to deliver solutions that not only work,
+        but also achieve objectives in the most effective way possible.
       </p>
 
-      <h3>Technologies I Use</h3>
+      <h3 id="tech_title_text">Technologies I Use</h3>
       <ul>
         <li>HTML / CSS</li>
         <li>JavaScript</li>
         <li>React</li>
       </ul>
     </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
+    <section id="contact" class="fade-in">
+      <h2 id="contact_title_text">Contact Me</h2>
       <form action="your-backend-endpoint" method="POST">
-        <label for="name">Name:</label>
+        <label for="name" id="name_text">Name:</label>
         <input type="text" id="name" name="name" required />
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
 
-        <label for="message">Message:</label>
+        <label for="message" id="message_text">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit">Send Message</button>
+        <button type="submit" class="btn" id="send_message_text">Send</button>
       </form>
     </section>
-    <footer>
-      <p>&copy; 2024 Lorenzo Drovandi. All rights reserved.</p>
+    <footer class="fade-in">
+      <p id="copy_text">2024 Lorenzo Drovandi. All rights reserved.</p>
       <ul>
         <li>
-          <a href="https://github.com/levi-arrow" target="_blank">GitHub</a>
+          <a href="https://github.com/LorenzoDrovandi7" target="_blank"
+            >GitHub</a
+          >
         </li>
         <li>
-          <a href="https://linkedin.com/in/levi-arrow" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/lorenzo-drovandi-0b0808323/"
+            target="_blank"
             >LinkedIn</a
           >
         </li>
       </ul>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
