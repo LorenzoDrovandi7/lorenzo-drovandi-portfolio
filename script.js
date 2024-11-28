@@ -3,6 +3,10 @@ import { themeService } from "./themeService.js";
 import { emailService } from "./emailService.js";
 import { scrollService } from "./scrollService.js";
 
+if (typeof Cypress === "undefined") {
+  emailjs.init("service_8691hlc");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("lang-en").addEventListener("click", () => {
     languageService.changeLanguage("en");

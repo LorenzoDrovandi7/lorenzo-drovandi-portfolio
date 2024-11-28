@@ -312,8 +312,8 @@ html {
 
 .theme-btn {
   position: fixed;
-  top: 64em;
-  right: 0.5em;
+  top: 0em;
+  left: 1em;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -422,7 +422,7 @@ body.body-dark-mode footer {
   }
 
   .theme-btn {
-    top: 6em;
-    right: 1em;
+    top: 1em;
+    left: 1em;
   }
 }

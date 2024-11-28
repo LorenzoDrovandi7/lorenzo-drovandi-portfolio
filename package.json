@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@emailjs/browser": "^4.4.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.16.0"
   }
 }
