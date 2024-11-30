@@ -383,6 +383,10 @@ body.body-dark-mode footer {
   background-color: rgb(22, 22, 22);
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .project-list {
     flex-direction: column;

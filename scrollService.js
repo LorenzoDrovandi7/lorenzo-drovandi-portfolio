@@ -22,4 +22,18 @@ export const scrollService = {
     window.addEventListener("scroll", checkVisibility);
     checkVisibility();
   },
+  scrollHiding() {
+    const homeSection = document.getElementById("home");
+    const controls = document.getElementById("controls");
+
+    window.addEventListener("scroll", function () {
+      const rect = homeSection.getBoundingClientRect();
+
+      if (rect.bottom < 0) {
+        controls.classList.add("hidden");
+      } else {
+        controls.classList.remove("hidden");
+      }
+    });
+  },
 };

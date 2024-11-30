@@ -4,7 +4,7 @@ import { emailService } from "./emailService.js";
 import { scrollService } from "./scrollService.js";
 
 if (typeof Cypress === "undefined") {
-  emailjs.init("service_8691hlc");
+  emailjs.init("SbCCV7okgZsFUvVFK");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -19,5 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   themeService.init();
   scrollService.observeFooter();
   scrollService.observeFadeIn();
+  scrollService.scrollHiding();
   emailService.sendForm("contact-form");
 });
