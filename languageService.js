@@ -11,10 +11,13 @@ export const languageService = {
       project_title_text: "Projects",
       view_project_text_1: "View Project",
       view_project_text_2: "View Project",
+      view_project_text_3: "View Project",
       description_project_1:
         "A website that shows the exchange rates of the day, integrating an API which allows you to select a currency and get updated results instantly.",
       description_project_2:
         "A replica of a Pokedex, using the HTML, CSS, JavaScript and jQuery plus the integration of an API and with all the functions tested with Cypress.",
+      description_project_3:
+        "The game challenges players to remember and replicate a growing sequence of colors. Built using HTML, CSS, JavaScript, and Bootstrap, this project is fully responsive and deploys via Vercel.",
       aboutme_title_text: "About Me",
       aboutme_description_text:
         "Front-end developer with a knack for creating seamless digital experiences. Armed with HTML, CSS, JavaScript, and React, I transform ideas into dynamic, easy-to-use web applications. I'm passionate about combining creativity and code to deliver solutions that not only work, but also achieve objectives in the most effective way possible.",
@@ -36,10 +39,13 @@ export const languageService = {
       project_title_text: "Proyectos",
       view_project_text_1: "Ver Proyecto",
       view_project_text_2: "Ver Proyecto",
+      view_project_text_3: "Ver Proyecto",
       description_project_1:
         "Un sitio web que muestra los tipos de cambio del día, integrando una API que permite seleccionar una moneda y obtener resultados actualizados al instante.",
       description_project_2:
         "Una réplica de una Pokedex, utilizando el HTML, CSS, JavaScript y jQuery más la integración de una API y con todas las funciones probadas con Cypress.",
+      description_project_3:
+        "El juego desafía a los jugadores a recordar y replicar una secuencia creciente de colores. Este proyecto, creado con HTML, CSS, JavaScript y Bootstrap, es totalmente responsivo y se implementa a través de Vercel.",
       aboutme_title_text: "Sobre mí",
       aboutme_description_text:
         "Desarrollador front-end con habilidad para crear experiencias digitales fluidas. Armado con HTML, CSS, JavaScript y React, transformo ideas en aplicaciones web dinámicas y fáciles de usar. Me apasiona combinar creatividad y código para ofrecer soluciones que no solo funcionen, sino que también logren objetivos de la manera más efectiva posible.",
