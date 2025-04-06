@@ -15,7 +15,7 @@ export const languageService = {
       description_project_1:
         "A website that shows the exchange rates of the day, integrating an API which allows you to select a currency and get updated results instantly.",
       description_project_2:
-        "A replica of a Pokedex, using the HTML, CSS, JavaScript and jQuery plus the integration of an API and with all the functions tested with Cypress.",
+        "A replica of a Pokedex, using the HTML, CSS, JavaScript plus the integration of an API and with all the functions tested with Cypress.",
       description_project_3:
         "The game challenges players to remember and replicate a growing sequence of colors. Built using HTML, CSS, JavaScript, and Bootstrap, this project is fully responsive and deploys via Vercel.",
       aboutme_title_text: "About Me",
@@ -43,7 +43,7 @@ export const languageService = {
       description_project_1:
         "Un sitio web que muestra los tipos de cambio del día, integrando una API que permite seleccionar una moneda y obtener resultados actualizados al instante.",
       description_project_2:
-        "Una réplica de una Pokedex, utilizando el HTML, CSS, JavaScript y jQuery más la integración de una API y con todas las funciones probadas con Cypress.",
+        "Una réplica de una Pokedex, utilizando el HTML, CSS, JavaScript más la integración de una API y con todas las funciones probadas con Cypress.",
       description_project_3:
         "El juego desafía a los jugadores a recordar y replicar una secuencia creciente de colores. Este proyecto, creado con HTML, CSS, JavaScript y Bootstrap, es totalmente responsivo y se implementa a través de Vercel.",
       aboutme_title_text: "Sobre mí",
