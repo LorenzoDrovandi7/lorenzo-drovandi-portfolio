@@ -17,7 +17,7 @@ export const languageService = {
       description_project_2:
         "A replica of a Pokedex, using the HTML, CSS, JavaScript plus the integration of an API and with all the functions tested with Cypress.",
       description_project_3:
-        "The game challenges players to remember and replicate a growing sequence of colors. Built using HTML, CSS, JavaScript, and Bootstrap, this project is fully responsive and deploys via Vercel.",
+        "A web application that allows you to Create, Read, Update, and Delete Premier League teams. Built with HTML, CSS, JavaScript, Node.js, and Express.",
       aboutme_title_text: "About Me",
       aboutme_description_text:
         "Front-end developer with a knack for creating seamless digital experiences. Armed with HTML, CSS, JavaScript, and React, I transform ideas into dynamic, easy-to-use web applications. I'm passionate about combining creativity and code to deliver solutions that not only work, but also achieve objectives in the most effective way possible.",
@@ -45,7 +45,7 @@ export const languageService = {
       description_project_2:
         "Una réplica de una Pokedex, utilizando el HTML, CSS, JavaScript más la integración de una API y con todas las funciones probadas con Cypress.",
       description_project_3:
-        "El juego desafía a los jugadores a recordar y replicar una secuencia creciente de colores. Este proyecto, creado con HTML, CSS, JavaScript y Bootstrap, es totalmente responsivo y se implementa a través de Vercel.",
+        "Una aplicación web que te permite crear, leer, actualizar y eliminar equipos de la Premier League. Desarrollada con HTML, CSS, JavaScript, Node.js y Express.",
       aboutme_title_text: "Sobre mí",
       aboutme_description_text:
         "Desarrollador front-end con habilidad para crear experiencias digitales fluidas. Armado con HTML, CSS, JavaScript y React, transformo ideas en aplicaciones web dinámicas y fáciles de usar. Me apasiona combinar creatividad y código para ofrecer soluciones que no solo funcionen, sino que también logren objetivos de la manera más efectiva posible.",
